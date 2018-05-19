@@ -3,28 +3,31 @@
 > A Vue.js project
 
 ## Build Setup
+技术栈:vue-cli - express - vue-resource - vue-router - flex- stylus - webpack
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+复制代码：
 
-# build for production with minification
-npm run build
+$ git clone https://github.com/bjzwjsp/vue2.0-sell.git
 
-# build for production and view the bundle analyzer report
-npm run build --report
+安装vue脚手架工具vue-cli:
 
-# run unit tests
-npm run unit
+$ npm install vue-cli -g
 
-# run e2e tests
-npm run e2e
+安装依赖：
 
-# run all tests
-npm test
-```
+$ npm install 
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+运行命令：
+
+$ npm run dev
+
+发布代码：
+
+$ npm run build
+
+发布完代码后会生成dist目录，保存着项目的所有可运行的代码,不能直接打开index.html运行，需要开启http server运行代码。 直接运行我写好的配置文件就可以运行代码：
+
+$ node prod.server.js
+
+打开浏览器输入localhost:9000看效果。
